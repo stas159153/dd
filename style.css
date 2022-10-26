@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 1200px;
+    margin: auto;
+}
+.section-title{
+    text-align: center;
+    color: #333333;
+}
+.section-title__text{
+    text-transform: uppercase;;
+    font-family: Kaushan Script;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.section-title__title{
+    text-transform: uppercase;
+    font-variant:small-caps ;
+    font-weight: 700;
+    font-family: Montserrat;
+    margin-bottom: 36px;
+}
+.section-title__underline{
+display: block;
+width: 60px;
+background-color: #F38181;
+height: 4px;
+margin: auto;
+}
+.team__text{
+    color: rgb(184, 184, 184);
+    opacity: 0.7;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.fhoto-team__conteiner{
+    text-align: center;
+}
+.fhoto-team__text{
+    font-weight: 500;
+}
+.fhoto-team__text--bottom{
+    color: rgb(184, 184, 184);
+    opacity: 0.7;
+}
+.fhoto-team{
+    display: flex;
+    justify-content: space-between;
+}
